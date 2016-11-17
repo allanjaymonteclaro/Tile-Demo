@@ -10,3 +10,15 @@
 .tiles .row .side{
 	width: auto;
 }
+
+.tiles .row input{
+	display: none;
+}
+
+.tiles .row label{
+	cursor: pointer;
+}
+
+.correctBackground{
+	background-color: green !important;
+}
