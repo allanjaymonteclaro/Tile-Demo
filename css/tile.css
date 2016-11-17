@@ -17,7 +17,7 @@
 	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
 
-.tiles .row .side{
+.tiles .row .side, .tiles .row .side:hover{
 	width: auto;
 	background-color: white;
 	box-shadow: none;
@@ -45,4 +45,12 @@
 
 .wrongBackground{
 	background-color: #e74c3c !important;
+}
+
+.answer{
+	display: none;
+}
+
+.seeAnswer{
+	cursor: pointer;
 }

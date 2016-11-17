@@ -14,3 +14,9 @@ $("input[type='checkbox']").change(function(){
     	}
     }
 });
+
+
+$(".seeAnswer").click(function(){
+	$(".answer").show();
+	$(this).hide();
+});
