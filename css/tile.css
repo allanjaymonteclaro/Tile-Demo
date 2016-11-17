@@ -1,14 +1,34 @@
 .tiles .row div{
-	background-color: blue;
+	background-color: #ecf0f1;
 	margin: 3px;
 	height: 10em;
 	width: 15em;
 	text-align: center;
 	line-height: 150px;
+	font-weight: 600;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .5) inset;
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .5) inset;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5) inset;
+}
+
+.tiles .row div:hover{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
 
 .tiles .row .side{
 	width: auto;
+	background-color: white;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.tiles .row .deactivate, .tiles .row .deactivate:hover{
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 .tiles .row input{
@@ -20,5 +40,9 @@
 }
 
 .correctBackground{
-	background-color: green !important;
+	background-color: #2ecc71 !important;
+}
+
+.wrongBackground{
+	background-color: #e74c3c !important;
 }
