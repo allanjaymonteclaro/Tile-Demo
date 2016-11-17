@@ -1,0 +1,12 @@
+.tiles .row div{
+	background-color: blue;
+	margin: 3px;
+	height: 10em;
+	width: 15em;
+	text-align: center;
+	line-height: 150px;
+}
+
+.tiles .row .side{
+	width: auto;
+}
