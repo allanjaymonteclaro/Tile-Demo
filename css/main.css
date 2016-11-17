@@ -95,8 +95,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.begin{
+    margin-top: 20%;
+}
 
+a{
+    text-decoration: none !important;
+}
 
+a:hover{
+    color: #ecf0f1;
+}
 
 
 
