@@ -49,6 +49,7 @@
 
 .answer{
 	display: none;
+	font-size: 18px;
 }
 
 .seeAnswer{
@@ -57,4 +58,5 @@
 
 .finish{
 	padding-top: 25%;
+	
 }
